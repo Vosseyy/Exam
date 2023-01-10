@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'DM Sans', sans-serif;
+    src: url(../Fonts/DMSans-Bold.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+header{
+    width: 1920px;
+    height: 1000px;
+    background: linear-gradient(105.18deg, #1E3C72 -2.04%, #2A5298 107.42%);
+    border-radius: 0 0 30% 0;
+    position: relative;
+}
+nav{
+    width: 1251px;
+    height: 50px;
+    margin-top: 21px;
+}
+.logo{
+    text-align: center;
+    align-items: center;
+    
+}
+.logo__text{
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    left: 376px;
+    top: 31px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.logo__picture{
+    position: absolute;
+    width: 32px;
+    height: 22.4px;
+    left: 333.4px;
+    top: 40.4px;
+}
+.nav__item{
+    position: absolute;
+    width: 502px;
+    height: 33px;
+    left: 709px;
+    top: 28.5px;
+    font-size: 16px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.nav__lists{
+    
+}
